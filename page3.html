@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Freshly</title>
+        <link href="./src/output.css" rel="stylesheet">
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body class="--font-sans">
+
+        <!--Announcement-->
+
+        <section class="bg-gray-200 text-dark-blue text-sm">
+            <div
+                class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+                <p>Save up to 20% on all Toys & Accessories with “FLAT26OFF”
+                    code</p>
+                <div>
+                    <nav>
+                        <ul
+                            class="flex flex-row items-center justify-between gap-3">
+                            <li>
+                                <button class="flex items-center gap-1">
+                                    United States (USD $) <i
+                                        class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <div
+                                    class="h-5 min-h-[1em] w-0.5 bg-neutral-100 dark:bg-white/10"></div>
+                            </li>
+                            <li>
+                                <button class="flex items-center gap-1">
+                                    English <i
+                                        class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="flex items-center gap-1">
+                                    <i class="fa-regular fa-user"></i> My
+                                    Account <i
+                                        class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <header class="text-dark-blue">
+            <!-- start header with search bar -->
+            <div
+                class="max-w-full mx-auto py-8 flex justify-center items-center gap-20 border-b border-neutral-200">
+                <h1 class="text-4xl font-bold">Freshly</h1>
+                <!-- search bar -->
+                <div
+                    class="flex rounded-full border-2 border-lime overflow-hidden w-180">
+                    <input type="email" placeholder="Search Something..."
+                        class="w-full outline-none bg-white text-sm px-5 py-3" />
+                    <button type='button'
+                        class="flex items-center justify-center bg-lime hover:bg-green-600 px-6 text-white">
+                        Search
+                    </button>
+                </div>
+
+                <div class="flex flex-row justify-center items-center gap-8">
+                    <div class="flex flex-col justify-end items-center">
+                        <!-- calling -->
+                        <div
+                            class="flex flex-row justify-between items-center gap-3">
+                            <div><i
+                                    class="fa-solid fa-phone text-3xl"></i></div>
+                            <div>
+                                <div>Need help?</div>
+                                <div class="font-bold">+855 123-456-7890</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="h-12 border border-neutral-200 rounded-full"></div>
+                    <div>
+                        <!-- cart -->
+                        <div
+                            class="flex flex-row justify-between items-center gap-3">
+                            <div><i
+                                    class="fa-solid fa-cart-shopping text-3xl"></i></div>
+                            <div>
+                                <div>Cart <span
+                                        class="bg-lime text-white rounded-full px-2 py-1">0</span></div>
+                                <div class="font-bold">$ 0.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end header with search bar -->
+
+            <!-- start navbar -->
+            <div
+                class="max-w-full mx-auto py-6 flex justify-center items-center gap-15 border-b border-neutral-200 text-white  bg-dark-blue">
+                <div
+                    class="flex flex-row justify-center items-center gap-7 px-4 py-3 max-w-7xl  rounded-full bg-lime">
+
+                    <div class="text-white"><svg width="14" height="10" viewBox="0 0 14 10"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 5H9H1ZM1 1H13H1ZM1 9H13H1Z"
+                                fill="#184363" />
+                            <path d="M1 5H9M1 1H13M1 9H13" stroke="#184363"
+                                stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="font-bold">Shops by Department</div>
+                    <div><i class="fa-solid fa-angle-down"></i></div>
+
+                </div>
+                <nav>
+                    <ul
+                        class="flex flex-row items-center justify-between gap-8 font-bold">
+                        <li><a href="#" class="text-lg font-bold">Home</a></li>
+                        <li><a href="#" class="text-lg font-bold">Our Shop <i
+                                    class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="#" class="text-lg font-bold">Special <span
+                                    class="text-[12px] bg-light-bg-lime text-lime rounded-sm px-2 py-1">SALE</span><i
+                                    class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="#" class="text-lg font-bold">Categories
+                                <span
+                                    class="text-[12px] bg-light-bg-red text-light-red rounded-sm px-2 py-1">HOT</span><i
+                                    class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="#" class="text-lg font-bold">Top Deals <i
+                                    class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="#" class="text-lg font-bold">Element <i
+                                    class="fa-solid fa-angle-down"></i></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <!-- end navbar -->
+
+
+
+            <!-- start home indicator -->
+            <div class="w-full h-20 flex items-center justify-center text-center bg-[#EDF4F6]">
+            <p>Home</p>
+            </div>
+
+            <!-- end home indicator -->
+        </header>
+
+         <!-- start main body content -->
+        <section class="w-full h-400 flex flex-col justify-start items-center mt-10">
+            <div class="w-[70%] h-400 grid grid-cols-7 grid-rows-6 gap-5">
+
+                <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+
+                                <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->                <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->                <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                                 <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+                 
+                                <!-- start card -->
+                <div class="w-40 h-50 flex flex-col justify-start items-center gap-2">
+                    <img src="./src/pic/can.png" alt="" class="w-40 h-40 bg-cover bg-no-repeat border border-gray-300 rounded-[10px]">
+                    <p>
+                        Bakery
+                    </p>
+                </div>
+                <!-- end card -->
+
+
+
+            </div>
+        </section>
+        <!-- end main body content -->
+
+
+
+
+
+        <footer class="w-full mt-30">
+            <!-- start join our newsletter section -->
+            <div class="w-full h-80 bg-dark-blue flex flex-col justify-center items-center gap-4">
+                <p class="text-3xl font-bold text-white text-center">Join our Newsletter & get $10 discount for your first order!</p>
+
+                </p>
+                <p class="text-lg text-white text-center">
+                    Get E-mail updates about our latest shop and special offers.
+                </p>
+                <div
+                    class="flex rounded-full overflow-hidden w-120">
+                    <input type="email" placeholder="Email Address"
+                        class="w-full outline-none bg-white text-sm px-5 py-3" />
+                    
+                    <button type="button"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap bg-lime hover:bg-green-600 px-8 text-white">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <span>Subscribe</span>
+                    </button>
+                </div>
+            </div>
+            <!-- end join our newsletter section -->
+
+        
+
+            <!-- start bottom footer -->
+        <section class="w-full h-80 flex justify-center items-start pt-10">
+            <div class="w-[70%] h-full ">
+                <div class="w-full grid grid-cols-5 gap-10">
+
+                    <!-- Contact -->
+                    <div class="w-63 flex flex-col justify-start items-start gap-5 border-r-2 border-gray-300">
+                        <p class="text-3xl text-lime font-bold">+01 123 456 789</p>
+
+                        <p class="text-dark-blue">
+                            Monday - Friday : 9:00 to 5:00 <br>
+                            Saturday : 9:00 to 3:00
+                        </p>
+
+                        <p>
+                            <i class="fa-regular fa-envelope text-lime"></i>
+                            <span class="text-dark-blue">demo@example.com</span>
+                        </p>
+
+                        <p class="text-dark-blue">
+                            502 New Design Str, Melbourne <br>
+                            San Francisco United States
+                        </p>
+
+                        <a href="" class="underline font-bold">Show on Map</a>
+                        
+                    </div>
+                    
+                    
+                    <div class="flex flex-col justify-start items-start gap-5 text-dark-blue">
+                        <h4 class="font-bold mb-4 text-2xl">Store Policy</h4>
+                        <ul class="space-y-2 text-1xl">
+                            <li><a href="#" class="hover:text-green-600">Information</a></li>
+                            <li><a href="#" class="hover:text-green-600">Privacy</a></li>
+                            <li><a href="#" class="hover:text-green-600">Refund</a></li>
+                            <li><a href="#" class="hover:text-green-600">Shipping</a></li>
+                            <li><a href="#" class="hover:text-green-600">Service</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="flex flex-col justify-start items-start gap-5 text-dark-blue">
+                        <h4 class="font-bold mb-4 text-2xl">Quick links</h4>
+                        <ul class="space-y-2 text-1xl">
+                            <li><a href="#" class="hover:text-green-600">About Us</a></li>
+                            <li><a href="#" class="hover:text-green-600">Contact</a></li>
+                            <li><a href="#" class="hover:text-green-600">FAQS</a></li>
+                            <li><a href="#" class="hover:text-green-600">Compare</a></li>
+                            <li><a href="#" class="hover:text-green-600">Wishlist</a></li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="flex flex-col justify-start items-start gap-5 text-dark-blue">
+                        <h4 class="font-bold mb-4 text-2xl">About Us</h4>
+                        <ul class="space-y-2 text-1xl">
+                            <li><a href="#" class="hover:text-green-600">Our Store</a></li>
+                            <li><a href="#" class="hover:text-green-600">Bakery</a></li>
+                            <li><a href="#" class="hover:text-green-600">Chicken</a></li>
+                            <li><a href="#" class="hover:text-green-600">Dairy Items</a></li>
+                            <li><a href="#" class="hover:text-green-600">Toasts</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="flex flex-col justify-start items-start gap-5   text-dark-blue">
+                        <h4 class="font-bold mb-4 text-2xl">Collection</h4>
+                        <ul class="space-y-2 text-1xl">
+                            <li><a href="#" class="hover:text-green-600">Vegetables</a></li>
+                            <li><a href="#" class="hover:text-green-600">Cream</a></li>
+                            <li><a href="#" class="hover:text-green-600">Milk Items</a></li>
+                            <li><a href="#" class="hover:text-green-600">Fruits</a></li>
+                            <li><a href="#" class="hover:text-green-600">Healthy Food</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+            <!-- end bottom footer -->
+
+            <!-- start policy footer -->
+
+        <section class="w-full h-20 flex flex-col justify-center items-center">
+            <div class="w-[70%] h-full flex justify-between items-center border-t-2 border-gray-300">
+                <div class="text-dark-blue font-bold text-3xl" >
+                    Freshly
+                </div>
+
+                <div class="text-dark-blue font-bold text-1xl flex flex-row justify-start items-center gap-5">
+                    <div class="bg-gray-200 p-3 rounded-sm">Free delivery on orders over $100</div>
+                    <div class="bg-gray-200 p-3 rounded-sm">Easy return policy</div>
+                    <div class="bg-gray-200 p-3 rounded-sm">100% Money Back</div>
+                </div>
+            </div>
+        </section>
+        <!-- end policy footer -->
+
+
+        <!-- start copyright footer -->
+            <section class="w-full h-20 flex flex-col justify-center items-center">
+            <div class="w-[70%] h-full flex justify-between items-center border-t-2 border-gray-300">
+                <div class="text-dark-blue" >
+                    © 2025, Freshly Powered by BlackRise Themes
+                </div>
+
+                <div class="flex flex-row justify-start items-center gap-5 ml-10">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <img src="./src/pic/list.png" alt="">
+            </div>
+        </section>
+        <!-- end copyright footer -->
+
+
+        </footer>
+
+    </body>
+
+</html>
